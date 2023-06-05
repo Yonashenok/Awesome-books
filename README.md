@@ -55,14 +55,13 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Awesome books] <a name="about-project"></a>
 
-**[Awesome books]** is a...
+**[Awesome books]** is a website for recording your favorite books title with respective author name.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -120,9 +119,10 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
+  cd Awesome-books
+
   git clone https://github.com/Yonashenok/Awesome-books.git
 
-  cd Awesome-books
 ```
 
 ### Install
@@ -210,17 +210,13 @@ Feel free to check the [issues page](../../issues/).
 
 >
 
-If you like this project please contact us with [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217) and [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
+If you like this project please contact us with [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217) and [LinkedIn](https://www.linkedin.com/in/haben-mehari-593531140)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I would like to thank my coding partner for working with me shearing his knowledge and experience
 
 <!-- FAQ (optional) -->
 
@@ -231,7 +227,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [LICENSE](./LICENCE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
