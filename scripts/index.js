@@ -59,4 +59,4 @@ const getBooksFromStorage = () => {
     createBookList();
   }
 };
-window.addEventListener('load', getBooksFromStorage());
+window.addEventListener('load', getBooksFromStorage);
