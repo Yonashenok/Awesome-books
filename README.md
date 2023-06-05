@@ -181,11 +181,10 @@ You can deploy this project using:
 
   >
 
-👤 **Author2**
+👤 **Haben Mehari**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@habitoz](https://github.com/habitoz)
+- Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
