@@ -52,10 +52,11 @@ form.addEventListener('submit', (event) => {
 });
 
 // read from local storage
-
-const savedItem = localStorage.getItem('books');
-
-if (savedItem) {
-  books = JSON.parse(savedItem);
-  createBookList();
-}
+const getBooksFromStorage = () => {
+  const savedItem = localStorage.getItem('books');
+  if (savedItem) {
+    books = JSON.parse(savedItem);
+    createBookList();
+  }
+};
+window.addEventListener('load', getBooksFromStorage());
