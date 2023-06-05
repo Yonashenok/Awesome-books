@@ -60,17 +60,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome books] <a name="about-project"></a>
 
-> This project is build a basic website that allows users to add/remove books from a list
-
-**[your_project__name]** is a...
+**[Awesome books]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>HTML</summary>
@@ -236,7 +232,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [LICENSE](./LICENSE) licensed.
+This project is [LICENSE](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
