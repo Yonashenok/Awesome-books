@@ -179,7 +179,9 @@ You can deploy this project using:
 - Twitter: [@yonashenok](https://twitter.com/YonasHenok3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
 
-  > 👤 **Author2**
+  >
+
+👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -213,11 +215,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+>
 
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+If you like this project please contact us with [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217) and [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
 
 <!-- ACKNOWLEDGEMENTS -->
 
