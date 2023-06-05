@@ -55,22 +55,17 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Awesome books] <a name="about-project"></a>
 
-> This project is build a basic website that allows users to add/remove books from a list
-
-**[your_project__name]** is a...
+**[Awesome books]** is a website for recording your favorite books title with respective author name.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>HTML</summary>
@@ -109,8 +104,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -126,9 +119,10 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
+  cd Awesome-books
+
   git clone https://github.com/Yonashenok/Awesome-books.git
 
-  cd Awesome-books
 ```
 
 ### Install
@@ -181,11 +175,10 @@ You can deploy this project using:
 
   >
 
-👤 **Author2**
+👤 **Haben Mehari**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@habitoz](https://github.com/habitoz)
+- Linkedin: [@habitoz](https://www.linkedin.com/in/haben-mehari-593531140)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,17 +210,13 @@ Feel free to check the [issues page](../../issues/).
 
 >
 
-If you like this project please contact us with [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217) and [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217)
+If you like this project please contact us with [LinkedIn](https://www.linkedin.com/in/yonas-henok-996a26217) and [LinkedIn](https://www.linkedin.com/in/haben-mehari-593531140)
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+I would like to thank my coding partner for working with me shearing his knowledge and experience
 
 <!-- FAQ (optional) -->
 
@@ -237,8 +226,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [LICENSE](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [LICENSE](./LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
