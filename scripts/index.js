@@ -30,7 +30,7 @@ class Book {
       const bookElement = document.createElement('div');
       const bookInfo = document.createElement('p');
       const removeButton = document.createElement('button');
-      bookElement.classList.add('book-element')
+      bookElement.classList.add('book-element');
       bookInfo.innerHTML = `"${book.title}" by ${book.author}`;
       removeButton.innerHTML = 'remove';
       removeButton.classList.add('remove-btn');
