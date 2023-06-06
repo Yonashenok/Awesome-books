@@ -10,8 +10,8 @@ const resetForm = () => {
 class Book {
   constructor() {
     this.books = [];
-    this.bookId = 0;
     this.getBooksFromStorage();
+    this.bookId = this.books.length;
   }
 
   saveToLocalStorage() {
@@ -28,18 +28,15 @@ class Book {
   createBookList() {
     this.books.forEach((book) => {
       const bookElement = document.createElement('div');
-      const bookTitle = document.createElement('p');
-      const bookAuthor = document.createElement('p');
+      const bookInfo = document.createElement('p');
       const removeButton = document.createElement('button');
-      const bottomLine = document.createElement('hr');
-      bookAuthor.innerHTML = book.author;
-      bookTitle.innerHTML = book.title;
+      bookElement.classList.add('book-element')
+      bookInfo.innerHTML = `"${book.title}" by ${book.author}`;
       removeButton.innerHTML = 'remove';
+      removeButton.classList.add('remove-btn');
       removeButton.addEventListener('click', () => this.removeAllBooks(book));
-      bookElement.appendChild(bookTitle);
-      bookElement.appendChild(bookAuthor);
+      bookElement.appendChild(bookInfo);
       bookElement.appendChild(removeButton);
-      bookElement.appendChild(bottomLine);
 
       booksContainer.appendChild(bookElement);
     });
@@ -67,7 +64,6 @@ class Book {
   }
 }
 const newBook = new Book();
-// console.log(newBook);
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   newBook.formSubmitHandler();

@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 5px auto;
+    width: 50%;
+}
+.btn {
+    padding: 2px 15px;
+    display: block;
+    float: right;
+}
+.btn-container {
+    width: 185px;
+}
+.booksContainer {
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid #999;
+}
+.book-element {
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booksContainer .book-element:nth-of-type(odd){
+    background-color: #e8e8e8;
+}
+.remove-btn {
+    padding: 2px 20px;
+    border: 1px solid #999;
+}
+.center {
+    text-align: center;
+}
+.separator {
+    width: 20%;
+    margin: 50px auto 10px;
+}

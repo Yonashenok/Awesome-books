@@ -4,20 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Awesome Project</title>
   </head>
   <body>
     <main>
-      <h1>Awesome Books</h1>
-      <div id="booksContainer"></div>
-      <form method="post" id="form" action="/">
+      <h1 class="center">All Awesome Books</h1>
+      <div class="booksContainer" id="booksContainer"></div>
+      <hr class="separator">
+      <form method="post" class="form" id="form" action="/">
+        <h1>Add A new book</h1>
         <div>
-          <input type="text" name="title" id="title" />
+          <input type="text" placeholder="title" name="title" id="title" />
         </div>
         <div>
-          <input type="text" name="author" id="author" />
+          <input type="text" placeholder="author" name="author" id="author" />
         </div>
-        <button type="submit">add</button>
+        <div class="btn-container">
+          <button class="btn" type="submit">add</button>
+        </div>
       </form>
     </main>
   </body>
