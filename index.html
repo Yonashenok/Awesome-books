@@ -4,27 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Awesome Project</title>
   </head>
   <body>
     <header class="header">
       <div class="app-brand">
-          <a href="/"> Awesome Books</a>
+        <a href="/">Awesome Books</a>
       </div>
       <nav>
-         <ul class="nav-list">
-            <li class="nav-list-item"><a href="#book-list">List</a></li>
-            <li class="nav-list-item"><a href="#add-book">Add new</a></li>
-            <li class="nav-list-item"><a href="#contact">Contact</a></li>
-         </ul>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="#book-list">List</a></li>
+          <li class="nav-list-item"><a href="#add-book">Add new</a></li>
+          <li class="nav-list-item"><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <main class="main-content">
+      <div><p class="time-date">March 19Th 2023 9:44 am</p></div>
       <section class="book-list" id="book-list">
         <h1 class="center">All Awesome Books</h1>
         <div class="booksContainer" id="booksContainer"></div>
-        <hr class="separator">
+        <hr class="separator" />
       </section>
       <section class="add-book" id="add-book">
         <form method="post" class="form" id="form" action="/">
@@ -41,19 +42,25 @@
         </form>
       </section>
       <section class="contact" id="contact">
+        <div class="contact-info">
           <h1>Contact information</h1>
           <div>
-            <p>Do you have any question or you just want to say "Hello" <br> you can reach to us! </p>
+            <p>
+              Do you have any question or you just want to say "Hello"
+              <br />
+              you can reach to us!
+            </p>
             <ul>
-              <li>our email </li>
-              <li>our phone </li>
-              <li>our address </li>
+              <li>our email</li>
+              <li>our phone</li>
+              <li>our address</li>
             </ul>
           </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
-       <p>copy right - 2023</p>
+      <p>copy right - 2023</p>
     </footer>
   </body>
   <script src="./scripts/index.js"></script>
