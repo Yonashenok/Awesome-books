@@ -8,23 +8,53 @@
     <title>Awesome Project</title>
   </head>
   <body>
-    <main>
-      <h1 class="center">All Awesome Books</h1>
-      <div class="booksContainer" id="booksContainer"></div>
-      <hr class="separator">
-      <form method="post" class="form" id="form" action="/">
-        <h1>Add A new book</h1>
-        <div>
-          <input type="text" placeholder="title" name="title" id="title" />
-        </div>
-        <div>
-          <input type="text" placeholder="author" name="author" id="author" />
-        </div>
-        <div class="btn-container">
-          <button class="btn" type="submit">add</button>
-        </div>
-      </form>
+    <header class="header">
+      <div class="app-brand">
+          <a href="/"> Awesome Books</a>
+      </div>
+      <nav>
+         <ul class="nav-list">
+            <li class="nav-list-item"><a href="#book-list">List</a></li>
+            <li class="nav-list-item"><a href="#add-book">Add new</a></li>
+            <li class="nav-list-item"><a href="#contact">Contact</a></li>
+         </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="book-list" id="book-list">
+        <h1 class="center">All Awesome Books</h1>
+        <div class="booksContainer" id="booksContainer"></div>
+        <hr class="separator">
+      </section>
+      <section class="add-book" id="add-book">
+        <form method="post" class="form" id="form" action="/">
+          <h1>Add A new book</h1>
+          <div>
+            <input type="text" placeholder="title" name="title" id="title" />
+          </div>
+          <div>
+            <input type="text" placeholder="author" name="author" id="author" />
+          </div>
+          <div class="btn-container">
+            <button class="btn" type="submit">add</button>
+          </div>
+        </form>
+      </section>
+      <section class="contact" id="contact">
+          <h1>Contact information</h1>
+          <div>
+            <p>Do you have any question or you just want to say "Hello" <br> you can reach to us! </p>
+            <ul>
+              <li>our email </li>
+              <li>our phone </li>
+              <li>our address </li>
+            </ul>
+          </div>
+      </section>
     </main>
+    <footer class="footer">
+       <p>copy right - 2023</p>
+    </footer>
   </body>
   <script src="./scripts/index.js"></script>
 </html>

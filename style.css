@@ -1,3 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  border: 1px solid #999;
+}
+.main-content {
+  height: calc(100vh - 150px);
+}
+.contact, .book-list, .add-book {
+  display: none;
+}
+.contact:target, .book-list:target, .add-book:target{
+  display: block; 
+}
+.app-brand a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.nav-list-item {
+   padding: 3px 10px;
+}
+.nav-list-item a {
+  text-decoration: none;
+  color: #000;
+}
+.nav-list-item a:hover {
+  text-decoration: none;
+  color: blue
+}
+.nav-list-item a:active {
+  text-decoration: none;
+  color: blue
+}
+.nav-list-item:nth-of-type(1),.nav-list-item:nth-of-type(2){
+  border-right: 1px solid #999;
+}
 .form {
   display: flex;
   flex-direction: column;
@@ -46,4 +92,12 @@
 .separator {
   width: 20%;
   margin: 50px auto 10px;
+}
+.contact {
+  width: 50%;
+  margin: 10px auto;
+}
+.footer {
+  border: 1px solid #999;
+  padding: 5px 20px;
 }
