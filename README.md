@@ -67,19 +67,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<details>
-  <summary>HTML</summary>
-</details>
-
-<details>
-  <summary>Javascript</summary>
-  
-</details>
-
-<details>
-<summary>CSS</summary>
-</details>
-
+- HTML
+- Javascript
+- CSS
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -92,13 +82,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
 >
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -188,9 +172,9 @@ You can deploy this project using:
 
 >
 
-- **[add Author]**
-- **[remove Author]**
-- **[display list of author and book]**
+- **[add test for project]**
+- **[add animation]**
+- **[pop window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
